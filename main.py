@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('titanic.csv')
+df = pd.read_csv(r"C:\Users\IMRANKHAN J\Downloads\archive\Titanic-Dataset.csv")
 
 print("First 5 rows:\n", df.head())
 print("\nData Info:\n")
